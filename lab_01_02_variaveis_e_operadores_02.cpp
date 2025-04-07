@@ -1,8 +1,8 @@
 /*
-    Escreva um programa que:
-    1. Atribui os valores 11, 19 e 23 a três variáveis do tipo inteiro;
-    2.Imprime a soma e o produto dessas três variáveis;
-*/
+ *   Escreva um programa que:
+ *   1. Atribui os valores 11, 19 e 23 a três variáveis do tipo inteiro;
+ *   2.Imprime a soma e o produto dessas três variáveis;
+ */
 
 #include <iostream>
 
