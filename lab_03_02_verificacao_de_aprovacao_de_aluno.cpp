@@ -24,13 +24,12 @@
 
  using namespace std;
  
- bool Media(float m_nota1, float m_nota2, float m_nota3){
-     if((m_nota1 + m_nota2 + m_nota3)/3.00 < 7.00){
+ bool Media(float& m_nota1, float& m_nota2, float& m_nota3){
+     if((m_nota1 + m_nota2 + m_nota3)/3.00 < 7.00)
          return false;
-     }
-     if((m_nota1 + m_nota2 + m_nota3)/3.00 >= 7.00){
+
+     if((m_nota1 + m_nota2 + m_nota3)/3.00 >= 7.00)
          return true;
-     }
  }
  
  int main() {

@@ -30,13 +30,13 @@
 
 using namespace std;
 
-float Circulo(float raio){
-    return M_PI * pow(raio,2);
+float Circulo(float& c_raio){
+    return M_PI * pow(c_raio,2);
 }
 
 int main() {
-    float m_raio = {};
-    cin >> m_raio;
-    cout << fixed << setprecision(2) << Circulo(m_raio) << endl;
+    float raio = {};
+    cin >> raio;
+    cout << fixed << setprecision(2) << Circulo(raio) << endl;
     return 0;
 }
