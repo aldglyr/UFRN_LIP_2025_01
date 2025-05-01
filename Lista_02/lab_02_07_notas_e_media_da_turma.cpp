@@ -16,24 +16,30 @@ Requisitos:
 
 #include <iostream>
 #include <iomanip>
+
 using namespace std;
 
 int main() {
     int alunos = {};
     float nota = {};
     float soma = {};
+
     int i = 1;
+
     cin >> alunos;
 
     while(i <= alunos){
         cout << "Nota do aluno " << i << ": ";
         cin >> nota;
+
         cout << fixed << setprecision(2) << nota;
         cout << endl;
+
         soma += nota;
         i++;
     }
 
     cout << "A média aritmética da turma é: " << soma/alunos << endl;
+
     return 0;
 }

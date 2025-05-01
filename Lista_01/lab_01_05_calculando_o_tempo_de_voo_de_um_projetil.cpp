@@ -26,15 +26,18 @@ cout << fixed << setprecision(2);
 #include <iostream>
 #include <iomanip>
 #include <cmath>
+
 using namespace std;
 
 int main(){
     float a = {};
     float b = {};
     float c = {};
+
     cin >> a;
     cin >> b;
     cin >> c;
+
     float delta = pow(b,2) - 4 * a * c;
 
     if(delta >= 0){

@@ -19,26 +19,24 @@ Requisitos:
 */
 
 #include <iostream>
+
 using namespace std;
 
 int main() {
     int numero1 = {};
     int numero2 = {};
+    
     cin >> numero1;
     cin >> numero2;
 
     if(numero1 <= numero2) {
-
         for(int i = numero1; i <= numero2; i++) {
             cout << i << " ";
         }
-
     }else {
-
         for(int i = numero1; i >= numero2; i--) {
             cout << i << " ";
         }
-
     }
 
     return 0;

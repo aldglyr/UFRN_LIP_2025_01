@@ -18,17 +18,16 @@ Requisitos:
 */
 
 #include <iostream>
+
 using namespace std;
 
 bool EhPrimo(int numero) {
     bool primo = true;
 
     for(int i = 2; i < numero; i++) {
-
         if(numero % i == 0) {
             primo = false;
         }
-
     }
 
     if(numero == 1) {
@@ -40,6 +39,7 @@ bool EhPrimo(int numero) {
 
 int main() {
     int numero = {};
+    
     cin >> numero;
 
     if(EhPrimo(numero)) {

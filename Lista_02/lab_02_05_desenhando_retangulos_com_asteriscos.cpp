@@ -20,20 +20,20 @@ Requisitos:
 */
 
 #include <iostream>
+
 using namespace std;
 
 int main() {
     int linha = {};
     int coluna = {};
+    
     cin >> linha;
     cin >> coluna;
 
     for(int i = 1; i <= linha; i++) {
-
         for(int j = 1; j <= coluna; j++) {
             cout << "* ";
         }
-
         cout << endl;
     }
 

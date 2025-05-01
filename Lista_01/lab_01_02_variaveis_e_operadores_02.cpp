@@ -14,7 +14,9 @@ int main(){
     int valor1 = 11;
     int valor2 = 19;
     int valor3 = 23;
+
     cout << valor1 + valor2 + valor3 << endl;
     cout << valor1 * valor2 * valor3 << endl;
+    
     return 0;
 }

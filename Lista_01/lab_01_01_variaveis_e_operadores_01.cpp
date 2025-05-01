@@ -9,12 +9,15 @@ Escreva um programa que:
 
 #include <iostream>
 #include <cmath>
+
 using namespace std;
 
 int main(){
     int inteiro = 57;
+
     cout << inteiro << endl;
     cout << pow(inteiro,2) << endl;
     cout << pow(inteiro,3) << endl;
+
     return 0;
 }

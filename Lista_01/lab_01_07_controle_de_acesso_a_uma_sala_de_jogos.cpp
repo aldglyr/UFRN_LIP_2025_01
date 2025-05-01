@@ -32,6 +32,7 @@ int main(){
     int idade = {};
     int vip = {};
     int banido = {};
+    
     cin >> idade;
     cin >> vip;
     cin >> banido;

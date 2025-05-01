@@ -8,11 +8,14 @@ Escreva um programa que:
 */
 
 #include <iostream>
+
 using namespace std;
 
 int main(){
     int valor = 29;
+
     cout << valor / 2 << endl;
     cout << valor / 3 << endl;
+
     return 0;
 }

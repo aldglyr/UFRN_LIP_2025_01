@@ -20,6 +20,7 @@ Requisitos:
 */
 
 #include <iostream>
+
 using namespace std;
 
 int main() {
@@ -31,9 +32,9 @@ int main() {
         if(valor != 10){
             cout << "Valor " << valor << " recebido" << endl;
         }
-
     }while(valor != 10);
     
     cout << "Valor " << valor << " recebido. Programa encerrado." << endl;
+    
     return 0;
 }
