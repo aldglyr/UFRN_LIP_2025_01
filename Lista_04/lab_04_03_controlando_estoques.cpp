@@ -42,8 +42,8 @@ bool atualizarEstoque(int &estoqueA, int &estoqueB, int &estoqueC, int vendA, in
 
 int main() {
     int quantidade = 3;
-    int estoque[quantidade];
-    int venda[quantidade];
+    int estoque[quantidade] {};
+    int venda[quantidade] {};
     
     for(int i = 0; i < quantidade; i++){
         cin >> estoque[i];
