@@ -1,16 +1,20 @@
 /*
 
-Você está desenvolvendo um sistema que compara valores inteiros de sensores em um 
-experimento. A cada rodada, três valores inteiros são coletados e você precisa determinar 
-qual deles é o maior. Para simplificar essa tarefa, crie um programa em C++ que receba 
-três números inteiros e, utilizando uma função, retorne o maior dos três.
+Você está desenvolvendo um sistema que compara valores inteiros de sensores em 
+um experimento. A cada rodada, três valores inteiros são coletados e você 
+precisa determinar qual deles é o maior. Para simplificar essa tarefa, crie um 
+programa em C++ que receba três números inteiros e, utilizando uma função, 
+retorne o maior dos três.
 
 Requisitos:
 
-- O programa deve conter uma função que receba três números inteiros como parâmetros.
+- O programa deve conter uma função que receba três números inteiros como 
+  parâmetros.
+
 - A função deve retornar o maior dos três números.
-- O programa principal deve ler os três números do usuário e chamar a função para 
-  determinar o maior valor.
+
+- O programa principal deve ler os três números do usuário e chamar a função 
+  para determinar o maior valor.
 
 */
 

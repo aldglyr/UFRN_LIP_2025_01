@@ -1,21 +1,24 @@
 /*
 
-Imagine que você está desenvolvendo um software para simular o movimento de projéteis em 
-um jogo. Você precisa calcular o tempo em que o projétil atinge o solo, e isso pode ser 
-representado por uma equação do segundo grau baseada na fórmula de movimento uniforme 
-acelerado.
+Imagine que você está desenvolvendo um software para simular o movimento de 
+projéteis em um jogo. Você precisa calcular o tempo em que o projétil atinge o 
+solo, e isso pode ser representado por uma equação do segundo grau baseada na 
+fórmula de movimento uniforme acelerado.
 
 Em resumo, escreva um programa que:
 
 1. Receba os valores dos coeficientes a, b e c de uma equação de segundo grau;
-2. Calcule as raízes da equação utilizando a fórmula de Bhaskara;
-3. Se as raízes existirem (discriminante Δ≥0), imprime os valores de t (as duas raízes, se 
-   houver);
-4. Caso contrário, imprime "Não existem raízes reais" (matematicamente o projétil não 
-   atingirá o solo)
 
-Imprima todos os resultados com duas casas decimais de precisão. Utilize as bibliotecas e 
-comandos abaixo para setar a precisão da saída:
+2. Calcule as raízes da equação utilizando a fórmula de Bhaskara;
+
+3. Se as raízes existirem (discriminante Δ≥0), imprime os valores de t (as duas 
+   raízes, se houver);
+
+4. Caso contrário, imprime "Não existem raízes reais" (matematicamente o 
+   projétil não atingirá o solo)
+
+Imprima todos os resultados com duas casas decimais de precisão. Utilize as 
+bibliotecas e comandos abaixo para setar a precisão da saída:
 
 #include<iomanip>
 

@@ -1,7 +1,11 @@
 /*
 
-Escreva um programa que lê um inteiro n que representa uma quantidade de segundos.
-Seu programa deve imprimir quantas horas, minutos e segundos há no valor da variável n lida.
+Escreva um programa que lê um inteiro n que representa uma quantidade de 
+segundos.
+
+Seu programa deve imprimir quantas horas, minutos e segundos há no valor da 
+variável n lida.
+
 Imprima a saída no formato hh:mm:ss.
 
 Dica: use o comando abaixo para imprimir inteiros sempre com dois algarismos.

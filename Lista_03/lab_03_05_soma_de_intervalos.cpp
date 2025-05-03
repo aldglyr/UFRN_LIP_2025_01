@@ -1,16 +1,18 @@
 /*
 
-Você está trabalhando em um sistema que realiza cálculos sobre intervalos numéricos. Sua 
-tarefa é criar um programa em C++ que receba dois números inteiros x e y e calcule a soma 
-de todos os números inteiros no intervalo fechado [𝑥,𝑦]. O programa deve utilizar uma 
-função que realiza esse cálculo e retorna a soma.
+Você está trabalhando em um sistema que realiza cálculos sobre intervalos 
+numéricos. Sua tarefa é criar um programa em C++ que receba dois números 
+inteiros x e y e calcule a soma de todos os números inteiros no intervalo 
+fechado [𝑥,𝑦]. O programa deve utilizar uma função que realiza esse cálculo e 
+retorna a soma.
 
 Requisitos:
 
-- O programa deve conter uma função que receba dois inteiros, x e y, e retorne a soma de 
-  todos os inteiros no intervalo [𝑥,𝑦].
-- O programa principal deve ler os dois inteiros fornecidos pelo usuário e exibir o 
-  resultado da soma.
+- O programa deve conter uma função que receba dois inteiros, x e y, e retorne a
+  soma de todos os inteiros no intervalo [𝑥,𝑦].
+
+- O programa principal deve ler os dois inteiros fornecidos pelo usuário e 
+  exibir o resultado da soma.
 
 */
 

@@ -3,6 +3,7 @@
 Escreva um programa que:
 
 1. Atribui o valor 57 a uma variável n do tipo inteiro
+
 2. Imprime n, o quadrado de n e o cubo de n
 
 */
