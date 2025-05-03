@@ -40,6 +40,8 @@ bool CalcularRaizes(double a, double b, double c, double &x1, double &x2) {
         x2 = (-b - sqrt(delta))/(2 *a);
         return true;
     }
+    
+    return false;
 }
 
 int main() {
