@@ -26,21 +26,21 @@ Requisitos:
 
 using namespace std;
 
-bool Media(float &m_nota1, float &m_nota2, float &m_nota3){
-    if ((m_nota1 + m_nota2 + m_nota3) / 3.00 < 7.00){
+bool Media(float &nota1, float &nota2, float &nota3){
+    if ((nota1 + nota2 + nota3) / 3.00 < 7.00){
         return false;
     }
 
-    if ((m_nota1 + m_nota2 + m_nota3) / 3.00 >= 7.00){
+    if ((nota1 + nota2 + nota3) / 3.00 >= 7.00){
         return true;
     }
 }
 
 int main()
 {
-    float nota1 = {};
-    float nota2 = {};
-    float nota3 = {};
+    float nota1 {};
+    float nota2 {};
+    float nota3 {};
 
     cin >> nota1 >> nota2 >> nota3;
 

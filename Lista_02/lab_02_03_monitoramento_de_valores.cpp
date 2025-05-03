@@ -26,7 +26,7 @@ Requisitos:
 using namespace std;
 
 int main() {
-    int valor = {};
+    int valor {};
 
     do {
         cin >> valor;

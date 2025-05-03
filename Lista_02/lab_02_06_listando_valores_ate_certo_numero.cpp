@@ -21,7 +21,8 @@ Requisitos:
 using namespace std;
 
 int main() {
-    int numero = {};
+    int numero {};
+    
     cin >> numero;
 
     for(int i = 1; i <= numero; i++){

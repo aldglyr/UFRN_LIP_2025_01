@@ -41,7 +41,7 @@ float Circulo(float& c_raio){
 }
 
 int main() {
-    float raio = {};
+    float raio {};
 
     cin >> raio;
 

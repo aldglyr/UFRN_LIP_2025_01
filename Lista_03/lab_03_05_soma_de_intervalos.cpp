@@ -20,10 +20,10 @@ Requisitos:
 
 using namespace std;
 
-int Soma(int& s_numero1, int& s_numero2){
+int Soma(int &numero1, int &numero2){
     int soma = {};
 
-    for(int i = s_numero1; i <= s_numero2; i++){
+    for(int i = numero1; i <= numero2; i++){
         soma += i;
     }
 
@@ -31,8 +31,8 @@ int Soma(int& s_numero1, int& s_numero2){
 }
 
 int main() {
-    int numero1 = {};
-    int numero2 = {};
+    int numero1 {};
+    int numero2 {};
 
     cin >> numero1 >> numero2;
 

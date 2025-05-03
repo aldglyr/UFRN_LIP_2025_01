@@ -41,9 +41,9 @@ cout << fixed << setprecision(1);
 using namespace std;
 
 int main(){
-    float competidor1 = {};
-    float competidor2 = {};
-    float competidor3 = {};
+    float competidor1 {};
+    float competidor2 {};
+    float competidor3 {};
     
     cin >> competidor1;
     cin >> competidor2;

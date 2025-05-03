@@ -35,7 +35,7 @@ void trocar(int &x, int &y);
 using namespace std;
 
 void Trocar(int &valor1, int &valor2) {
-    int temporario = {};
+    int temporario {};
     temporario = valor1;
     valor1 = valor2;
     valor2 = temporario;
@@ -44,8 +44,8 @@ void Trocar(int &valor1, int &valor2) {
 int main() {
     int quantidade = 3;
     int valores[quantidade];
-    int trocas = {};
-    int comando = {};
+    int trocas {};
+    int comando {};
 
     for(int i = 0; i < quantidade; i++){
         cin >> valores[i];

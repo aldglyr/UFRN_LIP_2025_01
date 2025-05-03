@@ -37,9 +37,9 @@ Saída:
 using namespace std;
 
 int main(){
-    int idade = {};
-    int vip = {};
-    int banido = {};
+    int idade {};
+    int vip {};
+    int banido {};
     
     cin >> idade;
     cin >> vip;

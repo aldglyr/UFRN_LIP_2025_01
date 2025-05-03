@@ -22,24 +22,24 @@ Requisitos:
 
 using namespace std;
 
-int Maior(int& m_numero1, int& m_numero2, int& m_numero3){
-    if(m_numero1 > m_numero2 && m_numero1 > m_numero3){
-        return m_numero1;
+int Maior(int &numero1, int &numero2, int &numero3){
+    if(numero1 > numero2 && numero1 > numero3){
+        return numero1;
     }
     
-    if(m_numero2 > m_numero1 && m_numero2 > m_numero3){
-        return m_numero2;
+    if(numero2 > numero1 && numero2 > numero3){
+        return numero2;
     }
     
-    if(m_numero3 > m_numero1 && m_numero3 > m_numero2){
-        return m_numero3;
+    if(numero3 > numero1 && numero3 > numero2){
+        return numero3;
     }
 }
 
 int main() {
-    int numero1 = {};
-    int numero2 = {};
-    int numero3 = {};
+    int numero1 {};
+    int numero2 {};
+    int numero3 {};
     
     cin >> numero1 >> numero2 >> numero3;
     

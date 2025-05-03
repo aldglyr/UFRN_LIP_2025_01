@@ -40,7 +40,7 @@ bool EhPrimo(int numero) {
 }
 
 int main() {
-    int numero = {};
+    int numero {};
     
     cin >> numero;
 

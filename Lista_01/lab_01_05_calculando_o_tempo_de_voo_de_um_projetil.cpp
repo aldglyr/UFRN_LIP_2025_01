@@ -5,7 +5,7 @@ projéteis em um jogo. Você precisa calcular o tempo em que o projétil atinge 
 solo, e isso pode ser representado por uma equação do segundo grau baseada na 
 fórmula de movimento uniforme acelerado.
 
-Em resumo, escreva um programa que:
+Escreva um programa que:
 
 1. Receba os valores dos coeficientes a, b e c de uma equação de segundo grau;
 
@@ -33,9 +33,9 @@ cout << fixed << setprecision(2);
 using namespace std;
 
 int main(){
-    float a = {};
-    float b = {};
-    float c = {};
+    float a {};
+    float b {};
+    float c {};
 
     cin >> a;
     cin >> b;

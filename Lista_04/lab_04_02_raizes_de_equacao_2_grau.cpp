@@ -45,11 +45,11 @@ bool CalcularRaizes(double a, double b, double c, double &x1, double &x2) {
 }
 
 int main() {
-    double a = {};
-    double b = {};
-    double c = {};
-    double x1 = {};
-    double x2 = {};
+    double a {};
+    double b {};
+    double c {};
+    double x1 {};
+    double x2 {};
 
     cin >> a >> b >> c;
 

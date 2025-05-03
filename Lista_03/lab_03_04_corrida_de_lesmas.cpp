@@ -25,25 +25,25 @@ no grupo.
 
 using namespace std;
 
-int Level(int& l_velocidade){    
-    if(l_velocidade < 10){
+int Level(int &velocidade){    
+    if(velocidade < 10){
         return 1;
     }
     
-    if(l_velocidade >= 10 && l_velocidade < 20){
+    if(velocidade >= 10 && velocidade < 20){
         return 2;
     }   
     
-    if(l_velocidade >= 20){
+    if(velocidade >= 20){
         return 3;
     }
 }
 
 int main(){
-    int quantidade = {};
-    int velocidade = {};
-    int level = {};
-    int maior_level = {};
+    int quantidade {};
+    int velocidade {};
+    int level {};
+    int maior_level {};
     
     cin >> quantidade;
 

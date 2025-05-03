@@ -27,8 +27,8 @@ Requisitos:
 using namespace std;
 
 int main() {
-    int linha = {};
-    int coluna = {};
+    int linha {};
+    int coluna {};
     
     cin >> linha;
     cin >> coluna;

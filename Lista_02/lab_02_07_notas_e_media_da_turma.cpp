@@ -25,9 +25,9 @@ Requisitos:
 using namespace std;
 
 int main() {
-    int alunos = {};
-    float nota = {};
-    float soma = {};
+    int alunos {};
+    float nota {};
+    float soma {};
 
     int i = 1;
 

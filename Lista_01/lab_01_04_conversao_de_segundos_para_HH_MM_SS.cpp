@@ -24,7 +24,7 @@ O comando acima exige a inclusão da biblioteca iomanip.
 using namespace std;
 
 int main(){
-    int valor {};
+    int valor = {};
 
     cin >> valor;
 

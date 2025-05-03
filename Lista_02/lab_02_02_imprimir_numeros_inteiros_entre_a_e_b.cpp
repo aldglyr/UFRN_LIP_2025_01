@@ -28,8 +28,8 @@ Requisitos:
 using namespace std;
 
 int main() {
-    int numero1 = {};
-    int numero2 = {};
+    int numero1 {};
+    int numero2 {};
     
     cin >> numero1;
     cin >> numero2;
