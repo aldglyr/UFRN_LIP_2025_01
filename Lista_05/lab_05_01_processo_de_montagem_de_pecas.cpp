@@ -28,7 +28,7 @@ int main(){
 
     for(int j = 0; j <= 5; j++){
         cout << pecas[j];
-        if(j <= 4 ){
+        if(j < 5 ){
             cout << ",";
         }
     }
