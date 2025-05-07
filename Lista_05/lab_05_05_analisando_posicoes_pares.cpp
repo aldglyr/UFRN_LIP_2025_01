@@ -27,8 +27,7 @@ int main(){
         cin >> lista[i];
     }
 
-
-    for(int j = 0; j < numeros; j++){
+   for(int j = 0; j < numeros; j++){
         if(j % 2 == 0){
             cout << lista[j];
 
