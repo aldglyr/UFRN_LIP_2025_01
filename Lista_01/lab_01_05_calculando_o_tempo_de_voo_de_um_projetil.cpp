@@ -11,14 +11,12 @@ Escreva um programa que:
 
 2. Calcule as raízes da equação utilizando a fórmula de Bhaskara;
 
-3. Se as raízes existirem (discriminante Δ≥0), imprime os valores de t (as duas 
-   raízes, se houver);
+3. Se as raízes existirem (discriminante Δ≥0), imprime os valores de t (as duas raízes, se houver);
 
-4. Caso contrário, imprime "Não existem raízes reais" (matematicamente o 
-   projétil não atingirá o solo)
+4. Caso contrário, imprime "Não existem raízes reais" (matematicamente o projétil não atingirá o solo)
 
-Imprima todos os resultados com duas casas decimais de precisão. Utilize as 
-bibliotecas e comandos abaixo para setar a precisão da saída:
+Imprima todos os resultados com duas casas decimais de precisão. Utilize as bibliotecas e comandos abaixo para setar a
+precisão da saída:
 
 #include<iomanip>
 
@@ -32,21 +30,21 @@ cout << fixed << setprecision(2);
 
 using namespace std;
 
-int main(){
-    float a {};
-    float b {};
-    float c {};
+int main() {
+    float a{};
+    float b{};
+    float c{};
 
     cin >> a;
     cin >> b;
     cin >> c;
 
-    float delta = pow(b,2) - 4 * a * c;
+    float delta = pow(b, 2) - 4 * a * c;
 
-    if(delta >= 0){
+    if (delta >= 0) {
         cout << "t1 = " << fixed << setprecision(2) << (-b + sqrt(delta)) / (2 * a) << endl;
         cout << "t2 = " << fixed << setprecision(2) << (-b - sqrt(delta)) / (2 * a) << endl;
-    } else{
+    } else {
         cout << "Não existem raízes reais (matematicamente o projétil não atingirá o solo)" << endl;
     }
 

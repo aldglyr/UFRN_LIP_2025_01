@@ -1,10 +1,8 @@
 /*
 
-Escreva um programa que lê um inteiro n que representa uma quantidade de 
-segundos.
+Escreva um programa que lê um inteiro n que representa uma quantidade de segundos.
 
-Seu programa deve imprimir quantas horas, minutos e segundos há no valor da 
-variável n lida.
+Seu programa deve imprimir quantas horas, minutos e segundos há no valor da variável n lida.
 
 Imprima a saída no formato hh:mm:ss.
 
@@ -23,14 +21,14 @@ O comando acima exige a inclusão da biblioteca iomanip.
 
 using namespace std;
 
-int main(){
+int main() {
     int valor = {};
 
     cin >> valor;
 
-    cout << setfill('0') << setw(2) << valor / (60*60) << ":";
+    cout << setfill('0') << setw(2) << valor / (60 * 60) << ":";
 
-    valor = valor % (60*60); 
+    valor = valor % (60 * 60);
     cout << setfill('0') << setw(2) << valor / 60 << ":";
 
     valor = valor % 60;

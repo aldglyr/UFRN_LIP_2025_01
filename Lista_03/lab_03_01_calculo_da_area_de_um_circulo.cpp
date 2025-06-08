@@ -1,15 +1,12 @@
 /*
 
-Você é um engenheiro responsável por projetar o layout de uma praça que terá uma
-grande fonte circular no centro. Para calcular a quantidade de material 
-necessário para construir o piso ao redor da fonte, é preciso determinar a área 
-exata do círculo que representará a fonte.
+Você é um engenheiro responsável por projetar o layout de uma praça que terá uma grande fonte circular no centro. Para
+calcular a quantidade de material necessário para construir o piso ao redor da fonte, é preciso determinar a área exata
+do círculo que representará a fonte.
 
-Seu objetivo é criar um programa que utilize obrigatoriamente funções para 
-calcular a área do círculo.
+Seu objetivo é criar um programa que utilize obrigatoriamente funções para calcular a área do círculo.
 
-O valor do raio será fornecido pelo usuário, e a fórmula para o cálculo da área 
-de um círculo é:
+O valor do raio será fornecido pelo usuário, e a fórmula para o cálculo da área de um círculo é:
 
 A = π × r ^ 2
  
@@ -36,12 +33,12 @@ Requisitos:
 
 using namespace std;
 
-float Circulo(float& c_raio){
-    return M_PI * pow(c_raio,2);
+float Circulo(float &c_raio) {
+    return M_PI * pow(c_raio, 2);
 }
 
 int main() {
-    float raio {};
+    float raio{};
 
     cin >> raio;
 

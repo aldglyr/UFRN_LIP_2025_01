@@ -1,10 +1,9 @@
 /*
 
-Você está trabalhando em um sistema que permite aos usuários visualizar números 
-ímpares dentro de uma faixa personalizada. Sua tarefa é criar um programa que, 
-dado um número inteiro positivo n, exiba todos os números ímpares de 1 até n. O 
-programa deve garantir que todos os números ímpares dentro do intervalo 
-especificado sejam exibidos em ordem crescente, um por linha.
+Você está trabalhando em um sistema que permite aos usuários visualizar números ímpares em uma faixa personalizada. Sua
+tarefa é criar um programa que, dado um número inteiro positivo n, exiba todos os números ímpares de 1 até n. O programa
+deve garantir que todos os números ímpares dentro do intervalo especificado sejam exibidos em ordem crescente, um por
+linha.
 
 Requisitos:
 
@@ -21,12 +20,12 @@ Requisitos:
 using namespace std;
 
 int main() {
-    int numero {};
-    
+    int numero{};
+
     cin >> numero;
 
-    for(int i = 1; i <= numero; i++){
-        if(i % 2 != 0){
+    for (int i = 1; i <= numero; i++) {
+        if (i % 2 != 0) {
             cout << i << " ";
         }
     }

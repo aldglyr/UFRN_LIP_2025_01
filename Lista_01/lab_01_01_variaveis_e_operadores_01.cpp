@@ -13,12 +13,12 @@ Escreva um programa que:
 
 using namespace std;
 
-int main(){
+int main() {
     int inteiro = 57;
 
     cout << inteiro << endl;
-    cout << pow(inteiro,2) << endl;
-    cout << pow(inteiro,3) << endl;
+    cout << pow(inteiro, 2) << endl;
+    cout << pow(inteiro, 3) << endl;
 
     return 0;
 }
