@@ -1,18 +1,18 @@
-/*
-
-Escreva um programa para multiplicar duas matrizes A e B. A primeira linha da entrada de seu programa é constituída de
-dois valores inteiros, La e Ca, correspondentes respectivamente ao número de linhas e número de colunas da matriz A. As
-La linhas seguintes definem a matriz A, contendo, cada linha, Ca  valores inteiros. Em seguida, haverá uma linha
-contendo dois valores inteiros, Lb e Cb, correspondentes respectivamente ao número de linhas e número de colunas da
-matriz B. As Lb linhas seguintes definem a matriz B, contendo, cada linha, Cb valores inteiros.
-
-A saída do seu programa deve ser a matriz La x Cb resultante da multiplicação de A e B.
-
-Obs 1: Os valores de Ca e Lb serão sempre iguais.
-
-Obs 2: As dimensões das matrizes serão sempre menores ou igual a 20. 
-
-*/
+/* Escreva um programa para multiplicar duas matrizes A e B. A primeira linha da
+ * entrada de seu programa é constituída de dois valores inteiros, La e Ca, 
+ * correspondentes respectivamente ao número de linhas e número de colunas da 
+ * matriz A. As La linhas seguintes definem a matriz A, contendo, cada linha, Ca
+ * valores inteiros. Em seguida, haverá uma linha contendo dois valores 
+ * inteiros, Lb e Cb, correspondentes respectivamente ao número de linhas e 
+ * número de colunas da matriz B. As Lb linhas seguintes definem a matriz B, 
+ * contendo, cada linha, Cb valores inteiros.
+ * 
+ * A saída do seu programa deve ser a matriz La x Cb resultante da 
+ * multiplicação de A e B.
+ * 
+ * Obs 1: Os valores de Ca e Lb serão sempre iguais.
+ * Obs 2: As dimensões das matrizes serão sempre menores ou igual a 20. 
+ */
 
 #include <iostream>
 

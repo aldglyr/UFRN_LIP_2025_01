@@ -1,14 +1,14 @@
-/* 
-
-Em uma análise financeira de uma matriz de investimentos onde os valores representam o retorno entre setores específicos
-de uma empresa, os analistas estão interessados apenas na soma dos retornos que estão localizados acima da diagonal
-principal da matriz de investimentos. Esses valores representam a interação entre setores onde o primeiro setor tem mais
-impacto sobre o segundo, uma área de foco para otimização dos investimentos.
-
-Escreva um programa que calcule a soma dos elementos, de uma matriz numérica quadrada n x n lida, que estão acima da
-diagonal principal. A soma calculada deve ser exibida. Aceite apenas n maior que zero.
-
-*/
+/* Em uma análise financeira de uma matriz de investimentos onde os valores 
+ * representam o retorno entre setores específicos de uma empresa, os analistas 
+ * estão interessados apenas na soma dos retornos que estão localizados acima da
+ * diagonal principal da matriz de investimentos. Esses valores representam a 
+ * interação entre setores onde o primeiro setor tem mais impacto sobre o 
+ * segundo, uma área de foco para otimização dos investimentos.
+ * 
+ * Escreva um programa que calcule a soma dos elementos, de uma matriz numérica 
+ * quadrada n x n lida, que estão acima da diagonal principal. A soma calculada 
+ * deve ser exibida. Aceite apenas n maior que zero.
+ */
 
 #include <iostream>
 

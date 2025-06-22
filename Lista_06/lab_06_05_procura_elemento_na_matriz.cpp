@@ -1,10 +1,8 @@
-/*
-
-Faça um programa que, dados os números n, m (n, m ≤ 30), lê do usuário os valores de uma matriz A de inteiros de
-dimensão n x m. Depois, o programa deve ler um número x e imprimir uma mensagem indicando se a matriz possui algum
-elemento cujo valor é x.
-
-*/
+/* Faça um programa que, dados os números n, m (n, m ≤ 30), lê do usuário os 
+ * valores de uma matriz A de inteiros de dimensão n x m. Depois, o programa 
+ * deve ler um número x e imprimir uma mensagem indicando se a matriz possui 
+ * algum elemento cujo valor é x.
+ */
 
 #include <iostream>
 

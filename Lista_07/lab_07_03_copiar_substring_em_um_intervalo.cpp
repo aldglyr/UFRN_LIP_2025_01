@@ -1,15 +1,13 @@
-/* 
-
-Implemente um programa que leia dois números inteiros p e q, além de uma string s1 possivelmente contendo espaços em
-branco. O seu programa deve formar a string s2 composta por todos os caracteres de s1 que estão no intervalo [p, q]
-(considere que q será sempre maior ou igual a p).
-
-Importante: após utilizar o comando cin em um programa, o programa deve executar o comando cin.ignore() para que o
-cin.getline funcione corretamente.
-
-As strings do programa têm no máximo 49 caracteres.
-
-*/
+/* Implemente um programa que leia dois números inteiros p e q, além de uma 
+ * string s1 possivelmente contendo espaços em branco. O seu programa deve 
+ * formar a string s2 composta por todos os caracteres de s1 que estão no 
+ * intervalo [p, q] (considere que q será sempre maior ou igual a p).
+ * 
+ * Importante: após utilizar o comando cin em um programa, o programa deve 
+ * executar o comando cin.ignore() para que o cin.getline funcione corretamente.
+ * 
+ * As strings do programa têm no máximo 49 caracteres.
+ */
 
 #include <iostream>
 //#include <cstring>

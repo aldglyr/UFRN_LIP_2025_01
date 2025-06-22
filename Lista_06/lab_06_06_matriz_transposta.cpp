@@ -1,15 +1,15 @@
-/*
-
-Um cientista de dados está trabalhando com uma matriz que representa características de diferentes amostras em um
-experimento. Cada linha representa uma amostra, e cada coluna representa uma característica específica medida para essas
-amostras. Para uma análise específica, ele precisa da matriz transposta, onde cada coluna representa uma amostra e cada
-linha representa uma característica. Dessa forma, ele pode organizar os dados para processar as amostras individualmente
-por característica.
-
-Escreva um programa que recebe o número de linhas l e colunas c, onde l, c < 30, de uma matriz A e cria uma matriz B,
-que é a matriz transposta de A. O seu programa deve imprimir a matriz B.
-
-*/
+/* Um cientista de dados está trabalhando com uma matriz que representa 
+ * características de diferentes amostras em um experimento. Cada linha 
+ * representa uma amostra, e cada coluna representa uma característica 
+ * específica medida para essas amostras. Para uma análise específica, ele 
+ * precisa da matriz transposta, onde cada coluna representa uma amostra e cada
+ * linha representa uma característica. Dessa forma, ele pode organizar os dados
+ * para processar as amostras individualmente por característica.
+ * 
+ * Escreva um programa que recebe o número de linhas l e colunas c, onde l, 
+ * c < 30, de uma matriz A e cria uma matriz B, que é a matriz transposta de A. 
+ * O seu programa deve imprimir a matriz B.
+ */
 
 #include <iostream>
 

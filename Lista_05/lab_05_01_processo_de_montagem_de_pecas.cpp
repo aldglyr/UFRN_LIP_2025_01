@@ -1,14 +1,14 @@
-/*
-
-Imagine que você é um engenheiro de uma fábrica automatizada, onde o processo de montagem de peças segue um padrão
-específico. A primeira peça que chega à linha de montagem define o tamanho de todas as peças subsequentes. A cada nova
-peça, o tamanho é dobrado em relação à anterior. Sua tarefa é criar um sistema que, dado o tamanho da primeira peça,
-calcule o tamanho de todas as seis peças que serão montadas em sequência.
-
-Escreva um programa que leia o tamanho da primeira peça e preencha um vetor de seis posições onde o valor de cada
-posição subsequente seja o dobro do anterior. Ao final, exiba o vetor com os tamanhos das seis peças.
-
-*/
+/* Imagine que você é um engenheiro de uma fábrica automatizada, onde o processo
+ * de montagem de peças segue um padrão específico. A primeira peça que chega à 
+ * linha de montagem define o tamanho de todas as peças subsequentes. A cada 
+ * nova peça, o tamanho é dobrado em relação à anterior. Sua tarefa é criar um 
+ * sistema que, dado o tamanho da primeira peça, calcule o tamanho de todas as 
+ * seis peças que serão montadas em sequência.
+ * 
+ * Escreva um programa que leia o tamanho da primeira peça e preencha um vetor 
+ * de seis posições onde o valor de cada posição subsequente seja o dobro do 
+ * anterior. Ao final, exiba o vetor com os tamanhos das seis peças.
+ */
 
 #include <iostream>
 

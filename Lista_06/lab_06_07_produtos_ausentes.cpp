@@ -1,12 +1,11 @@
-/*
-
-Uma empresa de análise de dados está coletando informações sobre a presença de produtos em diferentes armazéns,
-representados em uma matriz onde cada elemento indica a quantidade do produto em um determinado ponto do estoque. Um
-valor "0" indica que o produto está indisponível naquela posição. Seu objetivo é calcular o percentual de posições onde
-o produto está ausente, para que o gestor saiba o quanto o estoque está vazio. Esse valor deve ser exibido com precisão
-de duas casas decimais.
-
-*/
+/* Uma empresa de análise de dados está coletando informações sobre a presença 
+ * de produtos em diferentes armazéns, representados em uma matriz onde cada 
+ * elemento indica a quantidade do produto em um determinado ponto do estoque. 
+ * Um valor "0" indica que o produto está indisponível naquela posição. Seu 
+ * objetivo é calcular o percentual de posições onde o produto está ausente, 
+ * para que o gestor saiba o quanto o estoque está vazio. Esse valor deve ser 
+ * exibido com precisão de duas casas decimais.
+ */
 
 #include <iostream>
 #include <iomanip>

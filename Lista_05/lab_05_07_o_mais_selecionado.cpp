@@ -1,14 +1,14 @@
-/*
-
-Você foi designado para desenvolver uma ferramenta que analisa a popularidade de certos itens em uma pesquisa. A tarefa
-é identificar qual item foi selecionado mais vezes. Se dois itens forem selecionados o mesmo número de vezes, a
-preferência é sempre pelo menor valor numérico. Seu programa deve ler uma lista de respostas e determinar qual valor
-apareceu mais vezes.
-
-Escreva um programa que leia um número inteiro n ≤ 30 e, em seguida, os n elementos de um vetor. O programa deve exibir
-o valor que aparece com mais frequência. Se houver dois ou mais valores com a mesma frequência, exiba o menor deles.
-
-*/
+/* Você foi designado para desenvolver uma ferramenta que analisa a popularidade
+ * de certos itens em uma pesquisa. A tarefa é identificar qual item foi 
+ * selecionado mais vezes. Se dois itens forem selecionados o mesmo número de 
+ * vezes, a preferência é sempre pelo menor valor numérico. Seu programa deve 
+ * ler uma lista de respostas e determinar qual valor apareceu mais vezes.
+ * 
+ * Escreva um programa que leia um número inteiro n ≤ 30 e, em seguida, os n 
+ * elementos de um vetor. O programa deve exibir o valor que aparece com mais 
+ * frequência. Se houver dois ou mais valores com a mesma frequência, exiba o 
+ * menor deles.
+ */
 
 #include <iostream>
 

@@ -1,15 +1,16 @@
-/*
-
-Uma instituição de pesquisa está analisando uma matriz de dados coletados em uma região para identificar pontos onde as
-medições estão acima da média. Eles desejam criar uma matriz filtrada em que apenas os valores acima da média sejam
-mantidos, enquanto os valores iguais ou menores que a média sejam considerados insignificantes e sejam substituídos por
-zero. Isso permite que eles se concentrem em áreas com medições excepcionais para análises mais detalhadas.
-
-Sua missão é desenvolver um programa que leia uma matriz A, inteira, de ordem m x n e que gere e exiba a matriz B
-composta pelos elementos da matriz A maiores que a média aritmética dos elementos desta matriz. Os elementos iguais ou
-menores que à média devem se tornar nulos na matriz B.
-
-*/
+/* Uma instituição de pesquisa está analisando uma matriz de dados coletados em 
+ * uma região para identificar pontos onde as medições estão acima da média. 
+ * Eles desejam criar uma matriz filtrada em que apenas os valores acima da 
+ * média sejam mantidos, enquanto os valores iguais ou menores que a média sejam
+ * considerados insignificantes e sejam substituídos por zero. Isso permite que 
+ * eles se concentrem em áreas com medições excepcionais para análises mais 
+ * detalhadas.
+ * 
+ * Sua missão é desenvolver um programa que leia uma matriz A, inteira, de ordem
+ * m x n e que gere e exiba a matriz B composta pelos elementos da matriz A 
+ * maiores que a média aritmética dos elementos desta matriz. Os elementos 
+ * iguais ou menores que à média devem se tornar nulos na matriz B.
+ */
 
 #include <iostream>
 

@@ -1,11 +1,10 @@
-/*
-
-Você está desenvolvendo uma calculadora para ajudar alunos a somarem duas listas de números. Cada lista contém
-exatamente dez números, e a soma é feita posição a posição. Sua tarefa é criar um programa que receba duas listas de
-números (vetores A e B), some os números em posições correspondentes e armazene os resultados em uma terceira lista
-(vetor C). Por fim, o programa deve exibir o vetor C, mostrando os resultados da soma de forma organizada.
-
-*/
+/* Você está desenvolvendo uma calculadora para ajudar alunos a somarem duas 
+ * listas de números. Cada lista contém exatamente dez números, e a soma é feita
+ * posição a posição. Sua tarefa é criar um programa que receba duas listas de
+ * números (vetores A e B), some os números em posições correspondentes e 
+ * armazene os resultados em uma terceira lista (vetor C). Por fim, o programa 
+ * deve exibir o vetor C, mostrando os resultados da soma de forma organizada.
+ */
 
 #include <iostream>
 

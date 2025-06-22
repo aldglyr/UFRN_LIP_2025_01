@@ -1,13 +1,13 @@
-/*
-
-Você foi contratado para desenvolver uma ferramenta de análise de dados que compara listas de números para encontrar
-elementos em comum. Sua tarefa é criar um programa que compare dois conjuntos de números e exiba os elementos que
-aparecem em ambos. Se não houver elementos em comum, o programa deverá exibir a mensagem "Nenhum".
-
-Escreva um programa que leia dois vetores de números inteiros, compare-os e exiba os elementos em comum. Se não houver
-nenhum elemento comum, exiba "Nenhum".
-
-*/
+/* Você foi contratado para desenvolver uma ferramenta de análise de dados que 
+ * compara listas de números para encontrar elementos em comum. Sua tarefa é 
+ * criar um programa que compare dois conjuntos de números e exiba os elementos 
+ * que aparecem em ambos. Se não houver elementos em comum, o programa deverá 
+ * exibir a mensagem "Nenhum".
+ * 
+ * Escreva um programa que leia dois vetores de números inteiros, compare-os e 
+ * exiba os elementos em comum. Se não houver nenhum elemento comum, exiba 
+ * "Nenhum".
+ */
 
 #include <iostream>
 
