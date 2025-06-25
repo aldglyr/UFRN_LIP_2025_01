@@ -7,7 +7,8 @@
 #include <iostream>
 using namespace std;
 
-int main() {
+int main()
+{
     int valor1 = 11;
     int valor2 = 19;
     int valor3 = 23;

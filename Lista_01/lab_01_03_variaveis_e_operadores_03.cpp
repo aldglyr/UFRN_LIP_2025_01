@@ -1,7 +1,7 @@
 /* Escreva um programa que:
  *
  * 1. Atribui o valor 29 a uma variável do tipo inteiro;
- * 2. Imprime o resultado do quociente (inteiro) da divisão desse número por 2 
+ * 2. Imprime o resultado do quociente (inteiro) da divisão desse número por 2
  *    e por 3;
  */
 
@@ -9,7 +9,8 @@
 
 using namespace std;
 
-int main() {
+int main()
+{
     int valor = 29;
 
     cout << valor / 2 << endl;
