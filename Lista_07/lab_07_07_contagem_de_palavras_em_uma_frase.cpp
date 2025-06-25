@@ -27,8 +27,9 @@ int main()
 
     for (int i = 0, j = 1; i <= strlen(string); i++, j++)
     {
+        // 32 é o valor do caracter espaço em ASCII
         if (string[i] > 32 && (string[j] == 32 || string[j] == '\0'))
-        { // 32 é o valor do caracter espaço em ASCII
+        {
             palavras++;
         }
     }

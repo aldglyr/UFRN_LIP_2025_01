@@ -60,4 +60,6 @@ int main()
     {
         cout << string_3[i];
     }
+
+    return 0;
 }
